@@ -26,10 +26,11 @@ public class Arithmetic
        
         ArithmeticBase r= new ArithmeticBase();
         Scanner in= new Scanner(System.in);
+        System.out.println("please Enter First number");
         int n= in.nextInt();
+        System.out.println("please Enter Second number");
         int m= in.nextInt();
-        double result = r.calculate(m,n);
-        System.out.println("result :" +result); 
+        r.calcualte(m,n);
     
     }
 }
